@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Currencies from "./pages/Currencies";
 import Main from "./pages/Main";
 import Price from "./pages/Price";
+import Nav from "./components/Nav";
 
 export default function App () {
   // We will use the Route component, path attribute, and element attribute to specify each route.
