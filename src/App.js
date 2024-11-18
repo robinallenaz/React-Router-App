@@ -11,6 +11,7 @@ export default function App () {
   // We will use the Route component, path attribute, and element attribute to specify each route.
   return (
     <div className="App">
+        <Nav/>
       <Routes>
         <Route path="/" element={<Main/>}/>
         <Route path="/currencies" element={<Currencies/>}/>
